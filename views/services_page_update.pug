@@ -1,0 +1,24 @@
+//-link to the header.pug file in the partials folder in views
+extends partials/header 
+
+//-link to the block position in header.pug file in the partials folde in views
+block content
+    div#container
+        h2#services_update_title= title
+        div#services_update_content
+            p Update your request
+            //Update form
+            form(method='POST' action='/services_page_update' class="service_form")
+                div.service
+                    input(type='text' name='name' value=article.name class='service_input')
+                div.service
+                    input(type='text' name='order' value=article.order class='service_input')
+                div.service
+                    input(type='text' name='description' value=article.description class='service_input')
+                div.service
+                    input(type='hidden' name='id' value=article.id)
+                div.service
+                    button(type='submit' value='submit' id='submit_button') UPDATE
+
+    //-link to the footer.pug file in other partials folder in views
+    include partials/footer

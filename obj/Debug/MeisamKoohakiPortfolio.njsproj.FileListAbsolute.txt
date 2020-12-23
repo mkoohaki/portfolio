@@ -1,0 +1,9 @@
+C:\Hard Drive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-1\Assignment-1-part-1\comp2068-assignment-1-part-1\MeisamKoohakiPortfolio\obj\Debug\MeisamKoohakiPortfolio.njsprojAssemblyReference.cache
+C:\Hard Drive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-1\Assignment-1-part-1\comp2068-assignment-1-part-1\MeisamKoohakiPortfolio\obj\Debug\MeisamKoohakiPortfolio.njsproj.CoreCompileInputs.cache
+C:\Hard Drive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-1\Assignment-1-part-1\comp2068-assignment-1-part-1\MeisamKoohakiPortfolio\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Hard Drive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-2\comp2068-assignment-1-part-2\comp2068-assignment-1-part-2\MeisamKoohakiPortfolio\obj\Debug\MeisamKoohakiPortfolio.njsprojAssemblyReference.cache
+C:\Hard Drive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-2\comp2068-assignment-1-part-2\comp2068-assignment-1-part-2\MeisamKoohakiPortfolio\obj\Debug\MeisamKoohakiPortfolio.njsproj.CoreCompileInputs.cache
+C:\Hard Drive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-2\comp2068-assignment-1-part-2\comp2068-assignment-1-part-2\MeisamKoohakiPortfolio\bin\Microsoft.NodejsTools.WebRole.dll
+C:\HardDrive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-2\comp2068-assignment-1-part-2\comp2068-assignment-1-part-2\MeisamKoohakiPortfolio\obj\Debug\MeisamKoohakiPortfolio.njsprojAssemblyReference.cache
+C:\HardDrive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-2\comp2068-assignment-1-part-2\comp2068-assignment-1-part-2\MeisamKoohakiPortfolio\obj\Debug\MeisamKoohakiPortfolio.njsproj.CoreCompileInputs.cache
+C:\HardDrive\College\Semester 4\JavaScript Frameworks\Assignment-1-part-2\comp2068-assignment-1-part-2\comp2068-assignment-1-part-2\MeisamKoohakiPortfolio\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,327 @@
+/*
+  File name: tintin_style.css
+  Author: Meisam Koohaki
+  web site name: TINTIN
+  file description: CSS for the TINTIN which is in the projects_page
+*/
+
+@charset "UTF-8";
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: #041027;
+	background-size:cover;
+	height: 4000px;
+}
+
+	
+#first-line
+{
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#second-line
+{
+	position: relative;
+	top: -100px;
+	text-transform: uppercase;
+	font-family: Arial;
+	font-weight: 700;
+	font-size: 8em;
+	color: #F4D03F;
+	text-align: center;
+	line-height: 1.1;
+}
+
+#director
+{
+	position: relative;
+	top: 10px;
+	font-weight: 200;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#director strong
+{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+#tintin
+{
+	position: relative;
+	top: 150px;	
+}
+
+#tintin img
+{
+	float: left;
+	padding: 20px;
+	height: 500px;
+	width: auto;
+}	
+	
+#tintin p
+{	
+	position: relative;
+	text-transform: uppercase;
+	color: #5DADE2;
+	font-family: "Comic Sans MS";
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-top: -50px;
+	top: 100px;
+}
+	
+#hadook
+{
+	position: relative;
+	top: 200px;
+	padding: 50px;
+}
+
+#hadook img
+{
+	height: 600px;
+	width: auto;
+	position: relative;
+	margin: 300px auto 20px;
+	left: 0;
+}	
+
+#hadook p
+{	
+	float: left;		
+	text-transform: uppercase;
+	color: #5DADE2;
+	font-family: "Comic Sans MS";
+	font-weight: 700;
+	font-size: 24px;
+    overflow: auto;
+	position: relative;
+	margin: -400px auto;
+	left: 100px;
+}
+
+
+div.thompsons
+{
+	position: relative;
+	top: 200px;
+	float: left;
+	margin: 30px 70px;
+		
+}
+
+div.thompsons img
+{
+	height: 600px;
+	width: auto;
+	
+	
+}
+
+.thompsons p
+{	
+	text-transform: uppercase;
+	color: #5DADE2;
+	font-family: "Comic Sans MS";
+	font-weight: 700;
+	font-size: 24px;
+    margin: 150px auto;
+}
+
+
+#the-adventure-of-tintin p
+{		
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 32px;
+	position: relative;
+	top: 500px;
+	color: #F4D03F;
+	
+	}
+	
+#the-adventure-of-tintin p strong
+{
+	font-weight: 700;
+	font-size: 80px;
+	font-family: arial black;
+}
+
+
+#the-adventure-of-tintin img
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 500px;
+	background-color: #041027;	
+}
+
+#main-footer
+{
+	position: relative;
+	top: 500px;	
+}
+figure.producers
+{
+	position: relative;
+	top: 500px;
+	float: left;
+}
+#colombia
+{
+	position: relative;
+	margin: auto 20px;
+	left: 30%;	
+	color: white;
+	text-decoration: none;	
+	
+}
+
+#colombia-pic
+{
+	position: relative;
+	width: 260px;
+	height: auto;
+	margin: auto 20px;
+	left: 25%;	
+}
+
+#paramount
+{
+	position: relative;
+	margin: auto 10px;
+	color: white;
+	text-decoration: none;
+	left: 70%;	
+	
+}
+
+#paramount-pic
+{
+	position: relative;
+	width: 250px;
+	height: auto;
+	margin: auto 10px;
+	left: 75%;	
+}
+
+p.present
+{
+	position: relative;
+	letter-spacing:50px;
+	top: 560px;
+	left: 0;
+}
+
+figure.assosiation
+{
+	position: relative;
+	top: 680px;
+	float: left;	
+}
+
+#amblin
+
+{
+	position: relative;
+	color: white;
+	text-decoration: none;	
+}
+
+#amblin-pic
+
+{
+	position: relative;
+	width: 200px;
+	height: auto;
+	margin-left: 2%;
+}
+
+#hemispher-pic, #wingnut-pic
+
+{
+	position: relative;
+	width: 200px;
+	height: auto;
+}
+
+
+#hemispher, #wingnut
+{
+	position: relative;
+	color: white;
+	text-decoration: none;	
+}
+
+
+
+#km-pic
+{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	color: white;
+}
+
+#km
+{
+	position: absolute;
+	color: white;
+	text-decoration: none;
+}
+
+
+#in-assosiation
+{
+	position: relative;
+	letter-spacing: 35px;
+	top: 780px;
+	left: -25%;;
+	
+}
+
+
+#cast
+{
+	position: relative;
+	top: 880px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	line-height: .6;
+}
+	
+#info ul
+{
+	font-family: Helvetica, sans-serif;
+	position: relative;
+	top: 950px;
+	left: 500px;
+	color: red;
+	font-weight: 200;
+	font-size: 1.5em;
+}
+
+footer p
+ {
+	position: relative;
+	top: 1000px;
+ 	text-align: center;
+	font-size: 20px; 
+	font-family: times, sans-serif;
+	
+}
+

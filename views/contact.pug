@@ -1,0 +1,46 @@
+//-link to the header.pug file in the partials folder in views
+extends partials/header
+
+//-link to the block position in header.pug file in the partials folder in views
+block content
+    div#container
+        h2#contact_title= title
+        div#contact_content
+            h3#title-page-contact-information Contact Infromation
+            div#line2
+            div#cellphone
+                h4.hcontact Cellphone
+                div#line-contact3
+                p.Pcontact +1 (416) 318-8547
+
+            div#email-address
+                h5.hcontact E-mail Address
+                div#line-contact1
+                div.Pcontact
+                    p meisam.koohaki@gmail.com
+                    p 200412272@student.georgianc.on.ca
+
+            //-link to the external link (Linkedin website)
+            div#linkedin
+                h6.hcontact LinkedIn
+                div#line-contact4
+                <a href="https://www.linkedin.com/in/meisamkoohaki/" target="blanc" alt="Linkein Page"><img src="images/main/linkedin-logo.jpg" id="linkedin-logo" alt="LinkedIn link"></a>
+
+            div#comment
+                h6.hcontact Leave a comment
+                div#line-contact2
+                form(action="send" method="post" id="comment-form")
+                    div#name-email
+                        div.contact1
+                            input(type="text" name="name" placeholder="Name"  class='contact_input')
+                        div.contact1
+                            input(type="email" name="emailaddress" placeholder="Email"  class='contact_input')
+                    div#comment-submit
+                        div#contact2
+                            textarea(name= "message" placeholder="I think ..." id='comment_input')
+                        div#contact3
+                            input(type= "submit" value= "Submit" name="submit-button" id= "submit_button_contact")
+
+
+    //-link to the footer.pug file in the partials folder in views
+    include partials/footer

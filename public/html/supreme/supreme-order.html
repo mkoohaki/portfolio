@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<!--
+  File name: supreme-order.html
+  Author: Meisam Koohaki
+  web site name: Supreme
+  file description: html page for Supreme web page - order page which is in the projects_page
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Supreme-Order Page</title>
+    <link href="../../css/supreme/supreme_style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li> <a href="../supreme-home.html">Home</a></li>
+                <li>
+                    <a href="">Goods-Supreme</a>
+                    <ul>
+                        <li> <a href="supreme-shirt.html">Supreme Shirts</a></li>
+                        <li> <a href="supreme-sweatshirt.html">Supreme Sweatshirts</a></li>
+                        <li> <a href="supreme-others.html">Supreme Others</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Goods-Others</a>
+                    <ul>
+                        <li> <a href="supreme-shoes.html">Shoes</a> </li>
+                        <li> <a href="supreme-stone-island.html">Stone Island</a> </li>
+                    </ul>
+                </li>
+                <li> <a href="supreme-order.html" target="blanc">Order</a> </li>
+                <li> <a href="supreme-contact.html" target="blanc">Contact</a> </li>
+            </ul>
+        </nav>
+        <div>
+            <img src="../../images/supreme_img/supreme_logo.png" id="logo" alt="Supreme Logo">
+        </div>
+    </header>
+    <div id="order_page_container">
+        <main>
+            <h1 id="first_title">Payment</h1>
+            <form id="order_payment_info" method="get" action="process-form.php">
+                <input type="hidden" name="form_sent">
+                <fieldset id="payment">
+                    <fieldset id="order-by">
+                        <legend class="payment_page"> Order By </legend>
+                        <div id="fname">
+                            <label id="firstname">First Name </label>
+                            <input type="text" name="firstname">
+                        </div>
+                        <div id="lname">
+                            <label id="lastname">Last Name </label>
+                            <input type="text" name="lastname">
+                        </div>
+                        <div id="address1">
+                            <label>Address Line 1 </label>
+                            <input type="text" name="Addres1">
+                        </div>
+                        <div id="address2">
+                            <label>Address Line 2 </label>
+                            <input type="text" name="Addres2">
+                        </div>
+                        <div id="city">
+                            <label>City </label>
+                            <input type="text" name="City">
+                        </div>
+                        <div id="states">
+                            <label>States</label>
+                            <select id="state" name="States">
+                                <option value="choose">choose…</option>
+                                <option value="Alberta">Alberta</option>
+                                <option value="British Columbia">British Columbia</option>
+                                <option value="Manitoba">Manitoba</option>
+                                <option value="New Brunswick">New Brunswick</option>
+                                <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                                <option value="Northwest Territories">Northwest Territories</option>
+                                <option value="Nova Scotia">Nova Scotia</option>
+                                <option value="Nunavut">Nunavut</option>
+                                <option value="Ontario">Ontario</option>
+                                <option value="Prince Edward Island">Prince Edward Island</option>
+                                <option value="Quebec">Quebec</option>
+                                <option value="Saskatchewan">Saskatchewan</option>
+                                <option value="Yukon">Yukon</option>
+                                <option value="Alabama">Alabama</option>
+                                <option value="Alaska">Alaska</option>
+                                <option value="Arizona">Arizona</option>
+                                <option value="Arkansas">Arkansas</option>
+                                <option value="California">California</option>
+                                <option value="Colorado">Colorado</option>
+                                <option value="Connecticut">Connecticut</option>
+                                <option value="Delaware">Delaware</option>
+                                <option value="Florida">Florida</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Hawaii">Hawaii</option>
+                                <option value="Idaho">Idaho</option>
+                                <option value="Illinois">Illinois</option>
+                                <option value="Indiana">Indiana</option>
+                                <option value="Iowa">Iowa</option>
+                                <option value="Kansas">Kansas</option>
+                                <option value="Kentucky">Kentucky</option>
+                                <option value="Louisiana">Louisiana</option>
+                                <option value="Maine">Maine</option>
+                                <option value="Maryland">Maryland</option>
+                                <option value="Massachusetts">Massachusetts</option>
+                                <option value="Michigan">Michigan</option>
+                                <option value="Minnesota">Minnesota</option>
+                                <option value="Mississippi">Mississippi</option>
+                                <option value="Missouri">Missouri</option>
+                                <option value="Montana">Montana</option>
+                                <option value="Nebraska">Nebraska</option>
+                                <option value="Nevada">Nevada</option>
+                                <option value="New Hampshire">New Hampshire</option>
+                                <option value="New Jersey">New Jersey</option>
+                                <option value="New Mexico">New Mexico</option>
+                                <option value="New York">New York</option>
+                                <option value="North Carolina">North Carolina</option>
+                                <option value="North Dakota">North Dakota</option>
+                                <option value="Ohio">Ohio</option>
+                                <option value="Oklahoma">Oklahoma</option>
+                                <option value="Oregon">Oregon</option>
+                                <option value="Pennsylvania">Pennsylvania</option>
+                                <option value="Rhode Island">Rhode Island</option>
+                                <option value="South Carolina">South Carolina</option>
+                                <option value="South Dakota">South Dakota</option>
+                                <option value="Tennessee">Tennessee</option>
+                                <option value="Texas">Texas</option>
+                                <option value="Utah">Utah</option>
+                                <option value="Virginia">Virginia</option>
+                                <option value="Washington">Washington</option>
+                                <option value="West Virginia">West Virginia</option>
+                                <option value="Wisconsin">Wisconsin</option>
+                                <option value="Wisconsin">Wyoming</option>
+                            </select>
+                        </div>
+                        <div id="country">
+                            <label>Country</label>
+                            <select id="country_name" name="Country Name">
+                                <option value="choose">choose…</option>
+                                <option value="Newmarket">Canada</option>
+                                <option value="OrangeVille">USA</option>
+                            </select>
+                        </div>
+                        <div id="phone-number">
+                            <label>Phone Number</label>
+                            <input type="tel" name="pnone">
+                        </div>
+                        <div id="delivery_comment">
+                            <label>Delivery Comment</label>
+                            <textarea name="delivery-comment" rows="3"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset id="payment-info">
+                        <legend class="payment_page">Payment Info</legend>
+                        <div id="mastercard-visa">
+                            <div id="mastercard">
+                                <input type="radio" name="cctype" id="m-c" value="mc">
+                                <label><img src="../../images/supreme_img/mc_logo.gif" alt="MasterCard"> MasterCard</label>
+                            </div>
+                            <div id="visa">
+                                <input type="radio" name="cctype" id="visa-c" value="visa">
+                                <label><img src="../../images/supreme_img/visa_logo.gif" alt="VisaCard"> VisaCard</label>
+                            </div>
+                        </div>
+                        <div id="amex-paypal">
+                            <div id="amex">
+                                <input type="radio" name="cctype" id="am-ex" value="amex">
+                                <label><img src="../../images/supreme_img/amex_logo.gif" alt="American Express"> American Express</label>
+                            </div>
+                            <div id="paypal">
+                                <input type="radio" name="cctype" id="p-p" value="paypal">
+                                <label><img src="../../images/supreme_img/paypal_logo.png" alt="PayPal"> PayPal</label>
+                            </div>
+                        </div>
+                        <div id="card-holder">
+                            <label>Credit Card Holder</label>
+                            <input type="text" id="ccholder" name="cc-holder">
+                        </div>
+                        <div id="cc-number">
+                            <label>Credit Card Number</label>
+                            <input type="text" id="ccnumber" name="ccnumber" maxlength="16">
+                        </div>
+                        <div id="cvv-number">
+                            <label>Credit Card <ins><dfn title="The security number behind of the credit card"> CVV</dfn></ins> Number </label>
+                            <input type="text" id="cvvnumber" name="cvvnumber" size="4" maxlength="4">
+                        </div>
+                        <div id="cc-expire-month">
+                            <label>Expiration Month</label>
+                            <select id="cc_expire_month" name="cc-expiremonth">
+                                <option value="choose">choose…</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div id="cc-expire-year">
+                            <label>Expiration Year</label>
+                            <select id="cc_expire_year" name="cc-expireyear">
+                                <option value="choose">choose…</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                </fieldset>
+                <input type="submit" id="final-submit-button" value="Submit" name="submit_button">
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>
+            <small><strong>Copyrights &copy; 2018, Meisam Koohaki (200412272)</strong></small>
+            <a href="legal/privacy-policy.html" title="Go to the Privacy Policy page" target="blanc">Read Our Privacy Policy </a><a href="legal/terms-of-use.html" title="Go to the Terms of Use" target="blanc">Read our Return Policy </a>
+        </p>
+    </footer>
+</body>
+</html>
+
+

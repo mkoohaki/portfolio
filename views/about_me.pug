@@ -1,0 +1,33 @@
+//-link to the header.pug file in the partials folder in views
+extends partials/header
+
+//-link to the block position in header.pug file in the partials folder in views
+block content
+    div#container_about
+        h2#home_title= title
+        div#about_content
+        
+            p I am Meisam Koohaki - 200412272 and studying in Computer Programming (COPR) in georgian college.
+            h3 Soft Skills
+            div.line
+            div
+                ul.about_page
+                    li.about Abundant passion for learning, especially in the new technologies
+                    li.about Customer service oriented with good negotiate skills
+                    li.about Strong leadership skills in supervising technical teams and planning the projects to achieve project deliverables on time
+                    li.about Detail oriented, highly organized, and creative thinker with a proven ability to achieve the highest both independently and in team environment
+                    li.about Believe in continuous advancement with a passion to quality and efficiency
+
+            h4 Computer Programming Skills
+            div.line
+            div
+                ul.about_page
+                    li.about Well knowledge about SQL
+                    li.about Experienced in developing software for diverse platforms including embedded systems, desktop, mobile and mainframe systems
+                    li.about Superb skilled of code writing in a variety of programming languages such as Java, ASP.NET, CICS, and COBOL
+                    li.about Excellent experience in project methodology and familiar with systems development Life cycle
+                    li.about Excellent trained in analyzing the programs, debugging, developing, and updating
+
+
+    //-link to the footer.pug file in the partials folder in views
+    include partials/footer

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>MeisamKoohakiPortfolio</Name>
+    <RootNamespace>MeisamKoohakiPortfolio</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>64a47992-33ca-4a62-a32d-efcf73850940</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.js</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <NodejsPort>1337</NodejsPort>
+    <StartWebBrowser>true</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app.js" />
+    <Content Include="models\articles.js">
+      <SubType>Code</SubType>
+      <TestFramework>ExportRunner</TestFramework>
+    </Content>
+    <Content Include="pdfmake\pdfmake.js" />
+    <Content Include="pdfmake\vfs_fonts.js" />
+    <Content Include="public\css\pizza_store\pizza_store_style.css" />
+    <Content Include="public\css\song_page\song_page_style.css" />
+    <Content Include="public\css\supreme\supreme_style.css" />
+    <Content Include="public\css\tintin\tintin_style.css" />
+    <Content Include="public\html\pizza_store\legal\terms-of-use.html" />
+    <Content Include="public\html\pizza_store\legal\privacy-policy.html" />
+    <Content Include="public\html\pizza_store\pizzaOrderPage.html" />
+    <Content Include="public\html\pizza_store\pizza.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\html\song_page\song-page.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\html\supreme\supreme-order.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\html\supreme\legal\terms-of-use.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\html\supreme\legal\privacy-policy.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\html\supreme\supreme-sweatshirt.html" />
+    <Content Include="public\html\supreme\supreme-stone-island.html" />
+    <Content Include="public\html\supreme\supreme-shoes.html" />
+    <Content Include="public\html\supreme\supreme-shirt.html" />
+    <Content Include="public\html\supreme\supreme-others.html" />
+    <Content Include="public\html\supreme\supreme-contact.html" />
+    <Content Include="public\html\supreme\supreme-home.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\html\tintin\index.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\images\main\linkedin-logo.jpg" />
+    <Content Include="public\images\main\page1.jpg" />
+    <Content Include="public\images\main\page2.png" />
+    <Content Include="public\images\main\page3.jpg" />
+    <Content Include="public\images\main\page4.jpg" />
+    <Content Include="public\images\main\page5.jpg" />
+    <Content Include="public\images\main\portfolio.jpg" />
+    <Content Include="public\images\main\todolist.jpg" />
+    <Content Include="public\images\pizza_store_img\amex_logo.gif" />
+    <Content Include="public\images\pizza_store_img\app.jpg" />
+    <Content Include="public\images\pizza_store_img\application.jpg" />
+    <Content Include="public\images\pizza_store_img\bread.jpg" />
+    <Content Include="public\images\pizza_store_img\coca.jpg" />
+    <Content Include="public\images\pizza_store_img\cocadiet.jpg" />
+    <Content Include="public\images\pizza_store_img\cocaziro.jpg" />
+    <Content Include="public\images\pizza_store_img\cookie.jpg" />
+    <Content Include="public\images\pizza_store_img\dip.jpg" />
+    <Content Include="public\images\pizza_store_img\drink.jpg" />
+    <Content Include="public\images\pizza_store_img\fanta.jpg" />
+    <Content Include="public\images\pizza_store_img\mc_logo.gif" />
+    <Content Include="public\images\pizza_store_img\nesta.jpg" />
+    <Content Include="public\images\pizza_store_img\pam.jpg" />
+    <Content Include="public\images\pizza_store_img\panzos.jpg" />
+    <Content Include="public\images\pizza_store_img\pastasalad.jpg" />
+    <Content Include="public\images\pizza_store_img\paypal_logo.png" />
+    <Content Include="public\images\pizza_store_img\pepsi.jpg" />
+    <Content Include="public\images\pizza_store_img\pizza.jpg" />
+    <Content Include="public\images\pizza_store_img\pizza1.jpg" />
+    <Content Include="public\images\pizza_store_img\pizzacheez.jpg" />
+    <Content Include="public\images\pizza_store_img\pizzaspecial1.jpg" />
+    <Content Include="public\images\pizza_store_img\pizzaspecial2.jpg" />
+    <Content Include="public\images\pizza_store_img\pizzaspecial3.jpg" />
+    <Content Include="public\images\pizza_store_img\pizzaTypes.jpg" />
+    <Content Include="public\images\pizza_store_img\pizzavegi1.jpg" />
+    <Content Include="public\images\pizza_store_img\pizzavegi2.jpg" />
+    <Content Include="public\images\pizza_store_img\savenup.jpg" />
+    <Content Include="public\images\pizza_store_img\seasonsalad.jpg" />
+    <Content Include="public\images\pizza_store_img\visa_logo.gif" />
+    <Content Include="public\images\pizza_store_img\wing.jpg" />
+    <Content Include="public\images\song_page_img\1.jpg" />
+    <Content Include="public\images\song_page_img\10.jpg" />
+    <Content Include="public\images\song_page_img\11.jpg" />
+    <Content Include="public\images\song_page_img\12.jpg" />
+    <Content Include="public\images\song_page_img\2.jpg" />
+    <Content Include="public\images\song_page_img\20.jpg" />
+    <Content Include="public\images\song_page_img\21.jpg" />
+    <Content Include="public\images\song_page_img\22.jpg" />
+    <Content Include="public\images\song_page_img\23.jpg" />
+    <Content Include="public\images\song_page_img\24.jpg" />
+    <Content Include="public\images\song_page_img\25.jpg" />
+    <Content Include="public\images\song_page_img\26.jpg" />
+    <Content Include="public\images\song_page_img\27.jpg" />
+    <Content Include="public\images\song_page_img\29.jpg" />
+    <Content Include="public\images\song_page_img\3.jpg" />
+    <Content Include="public\images\song_page_img\30.jpg" />
+    <Content Include="public\images\song_page_img\4.jpg" />
+    <Content Include="public\images\song_page_img\5.jpg" />
+    <Content Include="public\images\song_page_img\6.jpg" />
+    <Content Include="public\images\song_page_img\7.jpg" />
+    <Content Include="public\images\song_page_img\8.jpg" />
+    <Content Include="public\images\song_page_img\9.jpg" />
+    <Content Include="public\images\song_page_img\DonFelder.jpg" />
+    <Content Include="public\images\song_page_img\DonHenley.jpg" />
+    <Content Include="public\images\song_page_img\Eagles-HotelCalifornia.mp3" />
+    <Content Include="public\images\song_page_img\eaglesnow.jpg" />
+    <Content Include="public\images\song_page_img\eaglesold.jpg" />
+    <Content Include="public\images\song_page_img\eaglesold.png" />
+    <Content Include="public\images\song_page_img\GlennFrey.jpg" />
+    <Content Include="public\images\song_page_img\hotelcalifornia.jpg" />
+    <Content Include="public\images\song_page_img\ٍeagles.jpg" />
+    <Content Include="public\images\supreme_img\amex_logo.gif" />
+    <Content Include="public\images\supreme_img\background.jpg" />
+    <Content Include="public\images\supreme_img\capsul.jpg" />
+    <Content Include="public\images\supreme_img\chapestic.jpg" />
+    <Content Include="public\images\supreme_img\folding_showel.jpg" />
+    <Content Include="public\images\supreme_img\gloves.jpg" />
+    <Content Include="public\images\supreme_img\mc_logo.gif" />
+    <Content Include="public\images\supreme_img\nike.jpg" />
+    <Content Include="public\images\supreme_img\others_main_pic.jpg" />
+    <Content Include="public\images\supreme_img\paypal_logo.png" />
+    <Content Include="public\images\supreme_img\pen.jpg" />
+    <Content Include="public\images\supreme_img\pen1.jpg" />
+    <Content Include="public\images\supreme_img\ringkey.jpg" />
+    <Content Include="public\images\supreme_img\shirt.jpg" />
+    <Content Include="public\images\supreme_img\shirt1.jpg" />
+    <Content Include="public\images\supreme_img\shirt10.jpg" />
+    <Content Include="public\images\supreme_img\shirt11.jpg" />
+    <Content Include="public\images\supreme_img\shirt12.jpg" />
+    <Content Include="public\images\supreme_img\shirt2.jpg" />
+    <Content Include="public\images\supreme_img\shirt3.jpg" />
+    <Content Include="public\images\supreme_img\shirt4.jpg" />
+    <Content Include="public\images\supreme_img\shirt5.jpg" />
+    <Content Include="public\images\supreme_img\shirt6.jpg" />
+    <Content Include="public\images\supreme_img\shirt7.jpg" />
+    <Content Include="public\images\supreme_img\shirt8.jpg" />
+    <Content Include="public\images\supreme_img\shirt9.jpg" />
+    <Content Include="public\images\supreme_img\shoes1.jpg" />
+    <Content Include="public\images\supreme_img\shoes10.jpg" />
+    <Content Include="public\images\supreme_img\shoes11.jpg" />
+    <Content Include="public\images\supreme_img\shoes12.jpg" />
+    <Content Include="public\images\supreme_img\shoes2.jpg" />
+    <Content Include="public\images\supreme_img\shoes3.jpg" />
+    <Content Include="public\images\supreme_img\shoes4.jpg" />
+    <Content Include="public\images\supreme_img\shoes5.jpg" />
+    <Content Include="public\images\supreme_img\shoes6.jpg" />
+    <Content Include="public\images\supreme_img\shoes7.jpg" />
+    <Content Include="public\images\supreme_img\shoes8.jpg" />
+    <Content Include="public\images\supreme_img\shoes9.jpg" />
+    <Content Include="public\images\supreme_img\shoes_pic.jpg" />
+    <Content Include="public\images\supreme_img\stone-island-pic.jpg" />
+    <Content Include="public\images\supreme_img\stone-island1.jpg" />
+    <Content Include="public\images\supreme_img\stone-island2.jpg" />
+    <Content Include="public\images\supreme_img\stone-island3.jpg" />
+    <Content Include="public\images\supreme_img\stone-island4.jpg" />
+    <Content Include="public\images\supreme_img\stone-island5.jpg" />
+    <Content Include="public\images\supreme_img\stone-island6.jpg" />
+    <Content Include="public\images\supreme_img\stone-island7.jpg" />
+    <Content Include="public\images\supreme_img\stone-island8.jpg" />
+    <Content Include="public\images\supreme_img\stone_island.jpg" />
+    <Content Include="public\images\supreme_img\supreme1.jpg" />
+    <Content Include="public\images\supreme_img\supreme11.jpg" />
+    <Content Include="public\images\supreme_img\supreme111.jpg" />
+    <Content Include="public\images\supreme_img\supreme2.jpg" />
+    <Content Include="public\images\supreme_img\supreme_black_logo.jpg" />
+    <Content Include="public\images\supreme_img\supreme_logo.png" />
+    <Content Include="public\images\supreme_img\supreme_logo_red.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt10.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt11.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt12.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt2.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt3.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt4.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt5.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt6.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt7.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt8.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt9.jpg" />
+    <Content Include="public\images\supreme_img\sweatshirt_logo.jpg" />
+    <Content Include="public\images\supreme_img\toothbrush_place.jpg" />
+    <Content Include="public\images\supreme_img\toothpick.jpg" />
+    <Content Include="public\images\supreme_img\visa_logo.gif" />
+    <Content Include="public\images\tintin_img\amblin.jpg" />
+    <Content Include="public\images\tintin_img\colombia.jpg" />
+    <Content Include="public\images\tintin_img\hadook22.jpg" />
+    <Content Include="public\images\tintin_img\hemispher.jpg" />
+    <Content Include="public\images\tintin_img\km.jpg" />
+    <Content Include="public\images\tintin_img\paramount.jpg" />
+    <Content Include="public\images\tintin_img\poster12.jpg" />
+    <Content Include="public\images\tintin_img\thompsons11left.jpg" />
+    <Content Include="public\images\tintin_img\thompsons11right.jpg" />
+    <Content Include="public\images\tintin_img\tintin111.jpg" />
+    <Content Include="public\images\tintin_img\wingnut.jpg" />
+    <Content Include="public\javascripts\main.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="public\sound\song_page_sound\Eagles-HotelCalifornia.mp3" />
+    <Content Include="routes\index.js" />
+    <Content Include="public\css\main.css">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="routes\pdfmake.js" />
+    <Content Include="routes\users.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="views\partials\footer.pug">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="views\services_page_update.pug" />
+    <Content Include="views\services_page.pug" />
+    <Content Include="views\contact.pug" />
+    <Content Include="views\projects_page.pug" />
+    <Content Include="views\index.pug" />
+    <Content Include="views\partials\header.pug" />
+    <Content Include="views\error.pug" />
+    <Content Include="views\about_me.pug">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
+    <Folder Include="pdfmake\" />
+    <Folder Include="public\css\pizza_store\" />
+    <Folder Include="public\css\song_page\" />
+    <Folder Include="public\css\supreme\" />
+    <Folder Include="public\css\tintin\" />
+    <Folder Include="public\html\" />
+    <Folder Include="public\html\tintin\" />
+    <Folder Include="public\html\supreme\" />
+    <Folder Include="public\html\song_page\" />
+    <Folder Include="public\html\pizza_store\" />
+    <Folder Include="public\html\pizza_store\legal\" />
+    <Folder Include="public\html\supreme\legal\" />
+    <Folder Include="public\images\main\" />
+    <Folder Include="public\images\client_images\" />
+    <Folder Include="public\images\pizza_store_img\" />
+    <Folder Include="public\images\song_page_img\" />
+    <Folder Include="public\images\supreme_img\" />
+    <Folder Include="public\images\tintin_img\" />
+    <Folder Include="public\sound\" />
+    <Folder Include="public\sound\song_page_sound\" />
+    <Folder Include="views\partials\" />
+    <Folder Include="public\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\javascripts\" />
+    <Folder Include="public\css\" />
+    <Folder Include="routes\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,50 @@
+
+//-link to the header.pug file in the partials folder in views
+extends partials/header
+
+//-link to the block position in header.pug file in the partials folder in views
+block content
+    div#container
+        h2#project_title= title
+        div#about_content
+            h4 html, css, and JavaScript
+            div.line
+
+            <div id = "html">
+                <div id = "web-page-pic">
+                    <figure class="div">
+                        //-link to the internal documentation in public folder - song-page.html - Eagles Band's Songs web page
+                        <a href="html/song_page/song-page.html" target ="blanc"><img src="images/main/page1.jpg" class="border" alt="Web Page 1"></a>
+                        <figcaption>A song page</figcaption>
+                    </figure>
+                    <figure class="div">
+                        //-link to the internal documentation in public folder - pizza.html - PIZZA DELICIOUSE web page
+                        <a href="html/pizza_store/pizza.html" target ="blanc"><img src="images/main/page2.png" class="border" alt="Web Page 2"></a>
+                        <figcaption>A purchase store</figcaption>
+                    </figure>
+                    <figure class="div">
+                        //-link to the internal documentation in public folder - pizza.html - PIZZA DELICIOUSE web page
+                        <a href="html/tintin/index.html" target ="blanc"><img src="images/main/page3.jpg" class="border" alt="Web Page 3"></a>
+                        <figcaption>A movie page/poster</figcaption>
+                    </figure>
+                    <figure class="div">
+                        //-link to the internal documentation in public folder - supreme-home.html - Supreme web page
+                        <a href="html/supreme/supreme-home.html" target ="blanc"><img src="images/main/page5.jpg" class="border" alt="Web Page 5"></a>
+                        <figcaption>An online store</figcaption>
+                    </figure>
+                    <figure class="div">
+                        //-link to the external live link - JavaScript project
+                        <a href="http://mkoohaki.online/todolist.html" target ="blanc"><img src="images/main/todolist.jpg" class="border" alt="Web Page 6"></a>
+                        <figcaption>JavaScript project</figcaption>
+                    </figure>
+                    <figure class="div">
+                        //-link to the external live web page - mkoohaki.online - portfolio web page
+                        <a href="http://mkoohaki.online/" target ="blanc"><img src="images/main/portfolio.jpg" class="border" alt="Web Page 6"></a>
+                        <figcaption>Live portfolio</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+
+    //-link to the footer.pug file in the partials folder in views
+    include partials/footer

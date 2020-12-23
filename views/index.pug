@@ -1,0 +1,16 @@
+//-link to the header.pug file in the partials folder in views
+extends partials/header
+
+//-link to the block position in header.pug file in the partials folder in views
+block content
+    div#container
+        h2#home_title= title
+        div#home_content
+            p This is the assignment-1 for JavaScripot Framework course (COMP2068)
+            p georgian college - Barrie
+            p Semester: 2020, Summer
+            p Instructor is Mr. Jacob Amaral
+
+    //-link to the footer.pug file in the partials folder in views
+    include partials/footer
+        

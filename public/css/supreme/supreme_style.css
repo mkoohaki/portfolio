@@ -1,0 +1,718 @@
+/*
+  File name: supreme_style.css
+  Author: Meisam Koohaki
+  web site name: Supreme
+  file description: CSS for the Supreme page which is in the projects_page
+*/
+
+@charset "UTF-8";
+
+* {
+	  			margin: 0px;
+					padding: 0px;
+}
+body {
+		   	  text-align: left;
+		  	  font-family: verdana, Arial, sans-serif;
+		   	  font-size: 20px;
+		   	  color: black;
+		   	  background-color: #ed1c24;
+		   	  position: relative;
+		  	  top: 100px;
+} 
+body#shirt {
+					background-color: #FFFFFF;
+}
+p {
+					text-indent: 1em;
+}
+#logo, #logo_shirt, #logo_nike {
+					height: 100px;
+					width: auto;
+					position: relative;
+					top: -92px;
+					margin-left: 37%;	
+}
+#logo_shirt{
+					height: 90px;
+					top: -95px;
+}
+#logo_nike {
+					width: 315px;
+					height: 105px;
+					top: -105.5px;
+					left: -0.53%;
+}
+#banner_shirt {
+					position: relative;
+					top:10px;
+}
+ul, li {
+					list-style-type: none;
+					z-index: 2;
+}
+ul {
+					position: relative;	
+					top: 90px;
+					margin-left: .8%;							
+}
+ul.navigation {
+					position: relative;	
+					top: 100px;
+					margin-left: .8%;							
+}
+ul li {
+					float: left;
+					position: relative;
+					text-align: center;
+					width: 225px;
+					line-height: 35px;
+}
+ul a {
+					text-decoration: none;
+					display: block;
+					width: 225px;
+					color: #922B21;
+					background-color: #ffffff;
+					border: 3px solid #922B21;
+					float: left;
+					line-height: 35px;
+    			border-radius: 15px;
+}
+ul ul{
+					display: none;
+					position: absolute;
+					top: 40px;
+					margin-left: 0;	
+}
+ul li:hover ul {
+					display: block;
+}
+ ul ul a{
+					margin-top: -2.5px;
+}
+ul li  a:link {
+   				color: #922B21;
+}
+ul li:hover > a {
+					background-color: #EC7063;
+					color: #ffffff;
+}
+ul li:hover  a:hover {
+					background-color: #ed1c24;
+}
+ul.navigation1 li:hover ul {
+					display: block;
+}
+ul.navigation1 a {
+					color: #ffffff;
+					background-color: #ed1c24;
+					border: 3px solid #922B21;
+					line-height: 35px;
+   		 		border-radius: 15px;
+}
+ul.navigation1 li  a:link {
+   	 	 		color: #922B21;
+}
+ul.navigation1 li:hover > a {
+					background-color: #EC7063;
+					color: #922B21;
+}
+ul.navigation1 li:hover  a:hover {
+					background-color: #ffffff;
+}
+ul.navigation2 li:hover ul {
+					display: #ffffff;
+}
+ul.navigation2 a {
+					color: #ffffff;
+					background-color: black;
+					border: 3px solid black;
+					line-height: 35px;
+    			border-radius: 15px;
+}
+ul.navigation2 li  a:link {
+   	 			color: black;
+}
+ul.navigation2 li:hover > a {
+					background-color: #999999;
+					color: black;
+}
+ ul.navigation2 li:hover  a:hover {
+					background-color: #ffffff;
+}
+#supreme_image, #supreme_image_shirt, #supreme_image_sweatshirt, #shoe_image{
+					position: relative;
+					top: 10px;
+					z-index: 1;
+}	
+#supreme_image_shirt {
+					top: 19px;										
+}	
+#supreme_image_sweatshirt {
+					top: 12px;								
+}	
+#shoe_image {
+					top: 4px;								
+}	
+#supreme_image img, #supreme_image_shirt img, #supreme_image_sweatshirt img, #shoe_image img {
+					width: 100%;
+					height: auto;
+}	
+#main_page_container, #container_privacy, #container_return_policy, #shirt_page_container,
+#other_page_container, #sweatshirt_page_container, #shoes_page_container, #stone_island_page_container,
+#order_page_container, #container_of_contact_page {
+					width: 80%;
+					border-radius: 15px;
+					margin: 0 auto;
+					background-color: #FFFFFF;
+					padding: 20px;
+					height: 1830px;
+					outline: 0;
+					position: relative;
+					margin-top: 22px;
+				  margin-bottom: 50px;
+}
+#container_privacy {
+					height: 735px;
+					margin-top: 10px;
+}		
+#container_return_policy {
+					height: 580px;
+					margin-top: 10px;
+}		
+#shirt_page_container, #other_page_container, #sweatshirt_page_container {
+					background-color: #ed1b24;
+					height: 3570px;
+					margin-top: 30px;
+}
+#sweatshirt_page_container {
+					height: 3650px;
+					margin-top: 15px;
+}
+#other_page_container {
+					height: 3075px;
+}
+
+#shoes_page_container {
+					background-color: black;
+					height: 3200px;
+					margin-top: 30px;
+}
+#stone_island_page_container {
+					background-color: black;
+					height: 2500px;
+					margin-top: 14px;
+}
+#order_page_container {
+					height: 1400px;
+}
+#container_of_contact_page {
+	height: 500px;
+}
+#supreme_shirt img, #supreme_sweatshirt img, #supreme_others img, #nike img, #stone_island img {
+					width: 250px;
+					height: auto;
+					position: relative;
+					margin-left: 5%;
+					float: left;
+}
+#supreme_photos {
+					top: 55px;
+					position: relative;
+}
+#other_photos {
+					top: 130px;
+					position: relative;	
+}
+#nike img, #stone_island img {
+					padding-left: 11%;
+}
+h1,h2,h3,h4,h5,h6 {
+	 		 		position: relative;
+ 	 				font-size: 1.3em;
+	     	 	color:black;
+		  		text-align: left;
+		  		line-height: 1;
+		  		font-weight: 700;
+		  		padding: 10px;
+		  		padding-top: 10px;
+   				text-transform: uppercase;
+}
+#home_first_title {
+	        font-size: 1.4em;
+	        color: white;
+				  background-color: #ed1c24;
+			    padding: 5px;
+				  width: 150px;
+				  margin-bottom: 5px;
+}
+#first_title, #second_title {
+		  	 text-align: center;
+				 top: 12px;			 
+}
+#second_title {
+				 color: #ffffff;			 
+}
+.line{
+	 	 	 	 border: 1px solid #ed1c24;
+ 				 margin: auto;
+  			 margin-top: -5px;
+  			 margin-bottom: 1%;
+}
+#line-contact{
+	 	 	 	 border: 1px solid #ed1c24;
+ 			   height: 0;
+ 				 margin: auto;
+  			 margin-top: 5px;
+  			 margin-bottom: 1%;
+}
+.contact-info{
+				 position: relative;
+				 top: 200px;
+				 font-size: 1.2em;
+				 font-weight: bold;
+				 text-align: center;
+				 text-indent: 0;
+				 background-color: black;
+				 color: #ffffff;
+				 margin: 5px;
+				 padding: 5px;
+				 width: 600px;
+				 margin-left: auto;
+				 margin-right: auto;
+}
+#white_line {
+				position: relative;
+				border: 1px solid #ffffff;
+				height: 0;
+ 			  margin-top: 5px;
+  			margin-bottom: 1%;
+				margin-left: 10%;
+				margin-right: 10%;
+}
+#order_explain, #order_explain_shoes {
+				position: relative;
+				margin-top: 10px;
+				text-align: center;	
+}
+#order_explain_shoes {
+				color: #ffffff;	
+}
+legend {
+	      color: #ffffff;
+	      padding-left: 15px;
+	      padding-right: 5px;
+		    text-align:center;
+    	  font-size: 20px;
+				font-weight: bold;
+				letter-spacing: .5em;
+			  word-spacing: 1em;
+		  }
+#shirt-order, #sweatshirt-order ,#others-order, #shoes-order, #stone-island-order {
+				position: relative;
+				top: 50px;
+ 			 	-moz-border-radius:15px;  
+ 			 	border-radius: 15px;  
+ 			 	-webkit-border-radius: 15px;
+				border: 6px solid #ffffff;
+				width: 90%;
+				margin: auto;
+				height: 3100px;
+}
+#sweatshirt-order {
+				height: 3180px;
+}
+#others-order {
+				height: 2605px;
+}
+#shoes-order {
+				height: 2730px;
+}
+#stone-island-order {
+				height: 2030px;
+}
+#column_left {
+	      float: left ;
+		    width: 30%;
+				margin-left: 18%;
+				margin-top: -30px;
+	      padding: 20px;	 
+}
+#column_right {
+				position: relative;
+			  margin-left: 70%;
+				width: 30%;
+				margin-top: -30px; 
+}
+label.shirt, label.shoes { 
+				text-decoration: none;
+  			padding: 30px;
+				position: relative;
+				margin-left: -40%;
+				font-size: .9em;
+				font-weight: bold;
+}	
+label.shirt a, label.others a { 
+				text-decoration: none;
+				color: black;
+}	
+label.shoes a {
+				text-decoration: none;
+				color: #ffffff;				
+}
+
+div.shirt_size {
+				position: relative;
+				top: 20px;
+				margin-left: -8%;
+				padding-top: 0px;
+				color: #ffffff;
+				font-size: .7em;
+  			display: inline-block;
+  			text-align: left;	
+}
+
+input {
+				width: 30px;
+				font-weight: bold;
+}
+.supreme_shirt1{
+				margin-left: 21px;	
+}
+.supreme_shirt2{
+				margin-left: 31px;	
+}
+.supreme_shirt3{
+				margin-left: 41px;	
+}
+.supreme_shirt4{
+				margin-left: 37px;	
+}
+.supreme_shirt5{
+				margin-left: 39px;	
+}
+.supreme_shirt6{
+				margin-left: 29px;	
+}
+.supreme_shirt7{
+				margin-left: 40px;	
+}
+.supreme_shirt8{
+				margin-left: 36px;	
+}
+.supreme_shoes1{
+				margin-left: 31px;	
+}
+.supreme_shoes2{
+				margin-left: 31px;	
+}
+.supreme_shoes3{
+				margin-left: 31px;	
+}
+.supreme_shoes4{
+				margin-left: 40px;	
+}
+.supreme_shoes5{
+				margin-left: 40px;	
+}
+#column_others
+		 {
+		    width: 30%;
+				margin-left: 37%;
+				text-align: center;
+}
+
+#column_others input {
+				position: relative;
+				margin-top: 20px;
+				margin-left: -4%;
+				width: 30px;
+				color: black;
+				font-weight: bold;
+				padding: 2px;
+				background-color: #ffffff;
+				font-size: .6em;
+}
+
+#column_others img {
+				width: 80%;
+				height: auto;
+				margin-left: 0;
+				margin-bottom: 20px;
+}
+			
+.others { 
+				position: relative;
+				margin-left: -10%;	
+				font-size: .9em;
+				font-weight: bold;
+				padding: 10px;
+}	
+
+.other {
+				position: relative;
+				margin-top: 80px;
+				top: 50px;
+}
+	
+
+#column_left img, #column_right img {
+				width: 80%;
+				height: auto;
+				padding: 10px;
+}		
+						
+div.shirt_column_left {
+				position: relative;
+				margin-top: 100px;
+}
+
+#shirt2 {
+				position: relative;
+				top: 120px;
+}
+#shirt4 {
+				margin-top: 208px;
+}
+#shirt6{
+				margin-top: 101px;
+}
+#shirt8 {
+				margin-top: 104px;
+}
+#shirt10 {
+				margin-top: 100px;
+}
+#shirt12 {
+				margin-top: 69px;
+}
+
+#sweatshirt4 {
+				margin-top: 222px;
+}
+#sweatshirt6 {
+				margin-top: 100px;
+}
+#sweatshirt8 {
+				margin-top: 80px;
+}
+#sweatshirt10 {
+				margin-top: 227px;
+}
+#sweatshirt12 {
+				margin-top: 92px;
+}
+
+#shoes2 {
+				margin-top: 120px;
+}
+#shoes4 {
+				margin-top: 79px;
+}
+#shoes6 {
+				margin-top: 71px;
+}
+#shoes8 {
+				margin-top: 49px;
+}
+#shoes10 {
+				margin-top: 100px;
+}
+#shoes12 {
+				margin-top: 137px;
+}
+
+#stone-island4 {
+				margin-top: 176px;
+}
+#stone-island6 {
+				margin-top: 57px;
+}
+#stone-island8 {
+				margin-top: 49px;
+}
+
+#submit-button, #add-to-card-button, #final-submit-button {
+	      background-color: #ffffff;
+	      color: #ed1c24;
+	      padding: 14px 50px;
+	      text-decoration: none;
+	      font-size: 1.2em;
+	      margin: 4px 2px;
+			  margin-left: 39.5%;
+        position: relative;
+			  top: 155px;
+	      cursor: pointer;
+        border-radius: 15px;
+				text-transform: uppercase;
+				width: 200px;
+}
+
+#add-to-card-button {
+	      padding: 5px 15px;
+	      font-size: 1em;
+			  top: 130px;
+}
+#final-submit-button {
+  			top: 20px;
+	      background-color: #ed1c24;
+	      color: #ffffff;
+	
+}
+
+footer {
+				text-align: center;
+				position: relative;
+				top: 35px;
+				font-size: .8em;
+}
+legend.payment_page {
+	      color: #ffffff;
+		    text-align: center;
+    	  font-size: 20px;
+				font-weight: bold;
+				letter-spacing: .5em;
+			  word-spacing: 1em;
+				background: #ed1c24;
+	      padding-left: -5px;
+				padding-bottom: 3px;
+}
+		 
+#payment, #order-by, #payment-info {
+      	position: relative;
+		 	 	width: 90%;
+	      border: 3px dashed #ffffff;
+		 	 	background-color: #ed1c24;
+		 	 	border-radius: 15px; 
+				margin-top: 5%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 10%;
+}
+#order-by, #payment-info {
+	      border: 3px dashed #ed1c24;
+		  	background-color: #ffffff;			
+		  	width: 70%;
+				padding: 5%;
+				padding-top: 0;
+}
+ #payment-info {
+	 			margin-bottom: 10%;
+}
+#order-by div, #payment-info div {
+				margin-left: 5%;
+				margin-bottom: 1%;
+} 
+#fname {
+				margin-top: 8%;
+}
+#fname input, #lname input, #address1 input, #address2 input, #city input, #phone-number input, #card-holder input,
+ #cc-number input, #cvv-number input {
+				width: 390px;
+				font-weight: bold;
+				font-size: 1em;
+				padding: 2px;
+				margin-left: 10px;
+				background-color: #EC7063;
+				color: #ffffff;
+				
+}
+#lname input {
+				margin-left: 12px;
+}
+#address1 input, #address2 input {
+				margin-left: 11px;
+				width: 350px;
+}
+ #city input {
+	 			width: 460px;
+}
+#phone-number input{
+				width: 350px;
+}
+#card-holder input {
+				width: 310px;
+}
+#cc-number input {
+				width: 295px;
+}
+#cvv-number input{
+				width: 247px;
+}
+ #country {
+	 			position: relative;
+	 		 	left: -4.5%;
+	 		 	float: right;
+	 		 	margin-top: -36px;
+	 
+}
+ #states {
+	 			position: relative;
+}
+ #country_name, #state {
+	 
+		 	height: 30px;
+	    width: 100px;
+	    position: relative;
+	    background-color: #EC7063;
+			color: #ffffff;
+	 	 	font-size: .8em;
+		  margin-left: 10px;
+}
+#state {
+			width: 225px;
+}
+#cc-expire-month {
+			width: 225px;
+}
+#delivery_comment textarea {
+			width: 318px;
+			height: 3em;
+			margin-left: 10px;
+}
+#mastercard-visa{
+			position: relative;
+			margin-top: 10%;
+}
+#mastercard {
+			position: relative;
+			float: left;
+}
+#visa {
+			position: relative;
+			left: 20%;	
+}
+#amex {
+			position: relative;
+			float: left;
+}
+#paypal {
+			position: relative;
+			left: 10%;
+}
+#card-holder {
+			margin-top: 15px;
+}
+#cc_expire_month, #cc_expire_year {
+	 
+	 		height: 30px;
+	    width: 331px;
+	    position: relative;
+	    background-color: #EC7063;
+			color: #ffffff;
+	 	 	font-size: .8em;
+		  margin-left: 10px;			
+}
+#cc_expire_year {
+			width: 352px;
+}
+#cc_expire_month {
+  		position: relative;
+			top: -25px;
+			left: 180px;
+}
+#cc-expire-year {
+ 			position: relative;
+ 		 	top:-26px;
+}

@@ -1,0 +1,72 @@
+//-link to the header.pug file in the partials folder in views
+extends partials/header 
+
+//-link to the block position in header.pug filer in the partials folder in views
+block content
+    div#container
+        h2#project_title= title
+        div#services_content_pdf
+            p For downloading our used technologies and Style Guide that details our using visual elements fill out the form
+            //Insert form, which post the info to pdfmake.js in routes
+            form(method='POST' action="pdfMake/pdf"  class="service_form")
+                div.service_pdf
+                    input(type='text' name='fname' placeholder='Enter First Name' class='service_input' id='fName')
+                div.service_pdf
+                    input(type='text' name='lname' placeholder='Enter Last Name' class='service_input' id='lName')
+                div.service_pdf
+                    button(type='submit' value='submit' id='submit_button_pdf') DOWNLOAD
+
+        div#services_content_pdf
+            p Please upload any sample you have, then I will give you a quot.
+            //Insert form, which post the info to index.js in routes
+            form(method='POST' enctype='multipart/form-data' action='/upload')
+                div#service_document
+                    label(for='upload')
+                    input(type='file' name='upload' class='service_input')
+                div.service_document                    
+                    input(name='title' placeholder='Enter File Name' class='service_input')
+                div.service_document
+                    button(type='submit' value='Submit' id='submit_button_pdf') SUBMIT DOCUMENT
+
+        div#services_content
+            p I can help you to make your website and web application. Please enter your order.
+            //Insert form, which post the info to index.js in routes
+            form(method='POST' action='/services_page' class="service_form")
+                div.service
+                    input(type='text' name='name' placeholder='Enter Name' class='service_input')
+                div.service
+                    input(type='text' name='order' placeholder='Enter Order' class='service_input')
+                div.service
+                    input(type='text' name='description' placeholder='Enter Description' class='service_input')
+                div.service
+                    button(type='submit' value='submit' id='submit_button') SUBMIT ORDER
+
+
+            div#service_table
+                //Check for any articles being passed in from the server
+                if (articles && articles.length)
+                    table
+                        thead
+                            th Name
+                            th Order
+                            th Description
+                            th Update
+                            th Delete
+
+                        tbody
+                            //If there is articles, create a row and column for each article
+                            each article in articles
+                                tr
+                                    td= article.name
+                                    td= article.order
+                                    td= article.description
+                                    td
+                                        a(href='/services_page_update/' + article.id  id='update_button') Update
+                                    td 
+                                        form(method='POST' action='/delete/' + article.id)
+                                            button(type='submit' id='delete_button') Delete
+                else
+                    h2 No articles!
+
+    //-link to the footer.pug file in other partials folder in views
+    include partials/footer

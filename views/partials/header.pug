@@ -1,0 +1,35 @@
+// Header page
+doctype html
+html
+	head
+		title= title
+		//Internal css file from public/css/main.css folder created by myself
+		link(rel="stylesheet" type="text/css" href="/css/main.css" )
+		//Insert js file from public/js/main.js created by myself
+		script(src="/javascripts/main.js" async)
+	
+	body
+		//Create header and list of links for access to all pages
+		header
+			nav
+				div#line1
+				ul
+					li 
+						a(href="http://localhost:1337/") Home
+					li 
+						a(href="http://localhost:1337/about_me") About Me
+					li 
+						a(href="http://localhost:1337/projects_page") Projects
+					li 
+						a(href="http://localhost:1337/services_page") Services
+					li 
+						a(href="http://localhost:1337/contact") Contact
+			div#banner
+				div#title
+					h1 MEISAM KOOHAKI PORTFOLIO
+		
+		//Main comes here from each pages
+		block content
+
+
+

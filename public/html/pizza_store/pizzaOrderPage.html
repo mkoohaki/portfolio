@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+<!--
+  File name: pizzaOrderPage.html
+  Author: Meisam Koohaki
+  web site name: PIZZA DELICIOUSE
+  file description: html for the second page of PIZZA DELICIOUSE page which is in the projects_page
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pizza Delicious-Order Page</title>
+    <link href="../../css/pizza_store/pizza_store_style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li> <a href="pizza.html" title="Go to Home Page">Home</a></li>
+                <li> <a href="pizzaOrderPage.html" title="Go to Order Page">Order Up </a> </li>
+                <li> <a href="https://www.google.ca/maps" target="blanc">Find Us</a> </li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <form id="coupenPincode" method="get" action="process-form.php">
+            <input type="number" id="coupen/Pin-code" name="Coupen/Pin-code" size="9" placeholder="Coupnen/Pin-Code" />
+            <input type="submit" id="coupen-submit-button" value="Apply">
+        </form>
+        <h1><span>PIZZA DELICIOUSE</span> Fresh and Hot</h1>
+    </header>
+    <div id="container1">
+        <main id="#mainContent" tabindex="-1">
+            <img src="../../images/pizza_store_img/pizza1.jpg" id="pizza-pic" alt="pizza">  <!--  A pic of pizza  -->
+            <br>
+            <br>
+            <br>
+            <article id="order_up">
+                <h2> Order Up</h2>
+                <form id="order_payment_info" method="get" action="process-form.php">
+                    <input type="hidden" name="form_sent">
+                    <fieldset id="help_yourself">
+                        <legend> Help Yourself! </legend>
+                        <br>
+
+                        <fieldset id="pizza-order">
+                            <legend> Pizza </legend>
+                            <br>
+                            <div>
+                                <label id="pizzas_special1"><img src="../../images/pizza_store_img/pizzaspecial1.jpg" alt="Pizza_Special_1" width="115" /> Pizza Special 1</label>
+                                <br>
+                                <input type="number" id="pizzas1_qty" name="Pizza_Special1_QTY" size="2" value="0" />
+                                <br>
+                                <select id="pizza_special1_crust" name="Pizza_Special1_Crust ">
+                                    <option value="Regular">Regular</option>
+                                    <option value="Thin">Thin</option>
+                                    <option value="Thik">Thick</option>
+                                </select>
+                                <select id="pizza_special1_size" name="Pizza_Special1_size ">
+                                    <option value="Medium">Medium(8 Sl)</option>
+                                    <option value="Slice">Slice</option>
+                                    <option value="Small">Small(6 Sl)</option>
+                                    <option value="Large">Large(10 Sl)</option>
+                                    <option value="Party">Party(24 Sl)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="pizza_special_2"><img src="../../images/pizza_store_img/pizzaspecial2.jpg" alt="Pizza_Special_2" width="115" /> Pizza Special 2</label>
+                                <br>
+                                <input type="number" id="pizzas2_qty" name="Pizza_Specia2_QTY" size="2" value="0" />
+                                <br>
+                                <select id="pizza_special2_crust" name="Pizza_Special2_Crust ">
+                                    <option value="Regular">Regular</option>
+                                    <option value="Thin">Thin</option>
+                                    <option value="Thik">Thick</option>
+                                </select>
+                                <select id="pizza_special2_size" name="Pizza_Special2_Size ">
+                                    <option value="Medium">Medium(8 Sl)</option>
+                                    <option value="Slice">Slice</option>
+                                    <option value="Small">Small(6 Sl)</option>
+                                    <option value="Large">Large(10 Sl)</option>
+                                    <option value="Party">Party(24 Sl)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="pizza_special3"><img src="../../images/pizza_store_img/pizzaspecial3.jpg" alt="Pizza Special 3" width="115" /> Pizza Special 3</label>
+                                <br>
+                                <input type="number" id="pizzas3_qty" name="Pizza_Special3_QTY" size="2" value="0" />
+                                <br>
+                                <select id="pizza_special3_crust" name="Pizza_Special3_Crust ">
+                                    <option value="Regular">Regular</option>
+                                    <option value="Thin">Thin</option>
+                                    <option value="Thik">Thick</option>
+                                </select>
+                                <select id="pizza_special3_size" name="Pizza_Special3_Size ">
+                                    <option value="Medium">Medium(8 Sl)</option>
+                                    <option value="Slice">Slice</option>
+                                    <option value="Small">Small(6 Sl)</option>
+                                    <option value="Large">Large(10 Sl)</option>
+                                    <option value="Party">Party(24 Sl)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="pizza_vegi_1"><img src="../../images/pizza_store_img/pizzavegi1.jpg" alt="Pizza Vegi1" width="115" /> Pizza Vegi 1</label>
+                                <br>
+                                <input type="number" id="pizzavegi1_qty" name="Pizza_Vegi1_QTY" size="2" value="0" />
+                                <br>
+                                <select id="pizza_Vegi1_crust" name="Pizza_Vegi1_Crust ">
+                                    <option value="Regular">Regular</option>
+                                    <option value="Thin">Thin</option>
+                                    <option value="Thik">Thick</option>
+                                </select>
+                                <select id="pizza_Vegi1_size" name="Pizza_Vegi1_Size ">
+                                    <option value="Medium">Medium(8 Sl)</option>
+                                    <option value="Slice">Slice</option>
+                                    <option value="Small">Small(6 Sl)</option>
+                                    <option value="Large">Large(10 Sl)</option>
+                                    <option value="Party">Party(24 Sl)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="pizza_vegi_2"><img src="../../images/pizza_store_img/pizzavegi2.jpg" alt="Pizza Vegi2" width="115" /> Pizza Vegi 2</label>
+                                <br>
+                                <input type="number" id="pizzav2_qty" name="Pizza_vegi2_QTY" size="2" value="0" />
+                                <br>
+                                <select id="pizza_vegi2_crust" name="Pizza_Vegi2_Crust ">
+                                    <option value="Regular">Regular</option>
+                                    <option value="Thin">Thin</option>
+                                    <option value="Thik">Thick</option>
+                                </select>
+                                <select id="pizza_vegi2_size" name="Pizza_Vegi2_Size ">
+                                    <option value="Medium">Medium(8 Sl)</option>
+                                    <option value="Slice">Slice</option>
+                                    <option value="Small">Small(6 Sl)</option>
+                                    <option value="Large">Large(10 Sl)</option>
+                                    <option value="Party">Party(24 Sl)</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="pizza_cheez"><img src="../../images/pizza_store_img/pizzacheez.jpg" alt="Pizza_Cheez" width="115" /> Pizza Cheez</label>
+                                <br>
+                                <input type="number" id="pizzach_qty" name="Pizza_Cheez_QTY" size="2" value="0" />
+                                <br>
+                                <select id="pizza_cheez_crust" name="Pizza_cheez_Type ">
+                                    <option value="Regular">Regular</option>
+                                    <option value="Thin">Thin</option>
+                                    <option value="Thik">Thick</option>
+                                </select>
+                                <select id="pizza_cheez_size" name="Pizza_cheez_Size ">
+                                    <option value="Medium">Medium(8 Sl)</option>
+                                    <option value="Slice">Slice</option>
+                                    <option value="Small">Small(6 Sl)</option>
+                                    <option value="Large">Large(10 Sl)</option>
+                                    <option value="Party">Party(24 Sl)</option>
+                                </select>
+                            </div>
+                        </fieldset>
+
+                        <fieldset id="other-order">
+                            <legend> Others </legend>
+                            <br>
+                            <div>
+                                <label id="wings-qty"><img src="../../images/pizza_store_img/wing.jpg" alt="Wingz" width="100" /> Wings</label>
+                                <br>
+                                <input type="number" id="wings_qty" name="Wings_Qty" size="2" value="0" />
+                                <br>
+                                <select id="wing_pieces" name="Wing_Pieces">
+                                    <option value="Regular">Regular(6 Pcs)</option>
+                                    <option value="Double">Double(12 Pcs)</option>
+                                    <option value="Party">Party(24 Pcs)</option>
+                                </select>
+                                <select id="wing_dressing_type" name="Wing_Dressing_Type ">
+                                    <option value="Barbecue">Barbecue</option>
+                                    <option value="Garlic">Garlic</option>
+                                    <option value="Hony_Garlic">Hony Garlic</option>
+                                    <option value="Hot_Souce">Hot Souce</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="panzos-qty"><img src="../../images/pizza_store_img/panzos.jpg" alt="Panzos" width="100" /> Panzos</label>
+                                <br>
+                                <input type="number" id="panzos_qty" name="Panzos_Qty" size="2" value="0" />
+                            </div>
+                            <div>
+                                <label id="season_salads_qty"><img src="../../images/pizza_store_img/seasonsalad.jpg" alt="Season_Salad" width="100" /> Season Salad</label>
+                                <br>
+                                <input type="number" id="ssalad_qty" name="Season_Salad_Qty" size="2" value="0" />
+                                <br>
+                                <select id="season_salad_size" name="Season_Salad_Size ">
+                                    <option value="Medium">Medium</option>
+                                    <option value="Small">Small</option>
+                                    <option value="Party">Party</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="pasta_salads_qty"><img src="../../images/pizza_store_img/pastasalad.jpg" alt="Pasta_Salad" width="100" /> Pasta Salad</label>
+                                <br>
+                                <input type="number" id="psalad_qty" name="Pasta_Salad_Qty" size="2" value="0" />
+                                <br>
+                                <select id="pasta_salad_size" name="Pasta_Salad_Size ">
+                                    <option value="Medium">Medium</option>
+                                    <option value="Small">Small</option>
+                                    <option value="Party">Party</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="dips-qty"><img src="../../images/pizza_store_img/dip.jpg" alt="Dip" width="100" /> Dips</label>
+                                <br>
+                                <input type="number" id="dips_qty" name="Dips_Qty" size="2" value="0" />
+                                <br>
+                                <select id="dip_type" name="Dip_Type ">
+                                    <option value="Chooze">Chooze</option>
+                                    <option value="Garlic">Garlic</option>
+                                    <option value="Jalapeno">Jalapeno</option>
+                                    <option value="Marianara">Marianara</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="cookies-qty"><img src="../../images/pizza_store_img/cookie.jpg" alt="Cookie" width="100" /> Cookie</label>
+                                <br>
+                                <input type="number" id="cookies_qty" name="Cookies_Qty" size="2" value="0" />
+                            </div>
+                        </fieldset>
+                        <br>
+                        <fieldset id="drink-order">
+                            <legend> Drink </legend>
+                            <br>
+                            <div>
+                                <label id="cocacola"><img src="../../images/pizza_store_img/coca.jpg" alt="Coca_Cola" width="45" /> Coca Cola</label>
+                                <br>
+                                <input type="number" id="coca_cola_qty" name="Coca_Cola_QTY" value="0" />
+                            </div>
+                            <div>
+                                <label id="cocaziro"><img src="../../images/pizza_store_img/cocaziro.jpg" alt="Coca_Cola_Ziro" width="45" /> Coca Cola Ziro</label>
+                                <br>
+                                <input type="number" id="coca_ziro_qty" name="Coca_Cola_Ziro_QTY" value="0" />
+                            </div>
+                            <div>
+                                <label id="cocadiet"><img src="../../images/pizza_store_img/cocadiet.jpg" alt="Coca_Cola_Diet" width="45" /> Coca Cola Diet</label>
+                                <br>
+                                <input type="number" id="coca_diet_qty" name="Coca_Cola_Diet_QTY" value="0" />
+                            </div>
+                            <div>
+                                <label id="pepsi"><img src="../../images/pizza_store_img/pepsi.jpg" alt="Pepsi" width="45" /> Pepsi </label>
+                                <br>
+                                <input type="number" id="pepsi_qty" name="Pepsi_QTY" value="0" />
+                            </div>
+                            <div>
+                                <label id="fnata"><img src="../../images/pizza_store_img/fanta.jpg" alt="Fanta" width="45" /> Fanta </label>
+                                <br>
+                                <input type="number" id="fanta_qty" name="Fanta_QTY" value="0" />
+                            </div>
+                            <div>
+                                <label id="nesta"><img src="../../images/pizza_store_img/nesta.jpg" alt="Nesta" width="45" /> Nesta </label>
+                                <br>
+                                <input type="number" id="nesta_qty" name="Nesta" value="0" />
+                            </div>
+                        </fieldset>
+                        <br>
+                        <fieldset id="custom-pizza-order">
+                            <legend> Custom Pizza Order </legend>
+                            <br>
+                            <label id="chooze"><strong>Chooze:  </strong></label>
+
+                            <label id="bread-type">Dough</label>
+                            <select id="bread_type" name="Bread_Type ">
+                                <option value="Regular">Regular</option>
+                                <option value="Whole_Wheat">Whole Wheat</option>
+                                <option value="Gluten_Free">Gluten Free</option>
+                                <option value="Carbone">Carbone</option>
+                            </select>
+
+                            <label id="chooze_your_crust">Crust</label>
+                            <select id="chooze_crust" name="Chooze Crust ">
+                                <option value="Regular">Regular</option>
+                                <option value="Thin">Thin</option>
+                                <option value="Thik">Thick</option>
+                            </select>
+
+                            <label id="chooze_a_sauce">Sauce</label>
+                            <select id="chooze_sause" name="Chooze Sauce ">
+                                <option value="Classic_Tomato">Classic Tomato</option>
+                                <option value="Herbed_Olive">Herbed Olive</option>
+                                <option value="Pesto">Pesto</option>
+                                <option value="BBQ">BBQ</option>
+                                <option value="No_Souce">No Souce</option>
+                            </select>
+
+                            <label id="chooze-Mozzarella_cheeze">Cheeze</label>
+                            <select id="chooze_Mozzarella_cheeze" name="Chooze Mozzarella Cheeze ">
+                                <option value="Regular">Regular</option>
+                                <option value="Easy">Easy</option>
+                                <option value="No_Cheeze">No Cheeze</option>
+                            </select>
+                            <label id="chooze-size">Size</label>
+                            <select id="chooze_size" name="Chooze_Size ">
+                                <option value="Medium">Medium(8 Sl)</option>
+                                <option value="Slice">Slice</option>
+                                <option value="Small">Small(6 Sl)</option>
+                                <option value="Large">Large(10 Sl)</option>
+                                <option value="Party">Party(24 Sl)</option>
+                            </select>
+                            <div class="line"></div>
+                            <input type="radio" name="pepperoni" id="pepperonitopic" value="pepperoni" />
+                            <label id="pepperoni"> pepperoni </label>
+
+                            <input type="radio" name="bakentopic" id="baken-top" value="baken" />
+                            <label id="baken"> Baken </label>
+
+                            <input type="radio" name="smoked_ham" id="smoked_ham" value="smoked_ham" />
+                            <label id="smoked-ham"> Smoked ham </label>
+
+                            <input type="radio" name="grilled_chiken" id="grilled_chiken" value="grilled_chiken" />
+                            <label id="grilled-chiken"> Grilled Chiken </label>
+
+                            <input type="radio" name="spicy_sousage" id="spicy_sousage" value="spicy_sousage" />
+                            <label id="spicy-sousage"> Spicy Sousage </label>
+
+                            <input type="radio" name="ground_beef" id="ground_beef" value="ground_beef" />
+                            <label id="ground-beef"> Ground Beef </label>
+
+                            <br>
+
+
+                            <input type="radio" name="mushroom" id="mushroom" value="mushroom" />
+                            <label id="mushroom1"> Mushroom </label>
+
+                            <input type="radio" name="green_pepper" id="green_pepper" value="green_pepper" />
+                            <label id="green-pepper"> Green Pepper </label>
+
+                            <input type="radio" name="sliced_tomato" id="sliced_tomato" value="sliced_tomato" />
+                            <label id="sliced-tomato"> Sliced Tomato </label>
+
+                            <input type="radio" name="onion" id="onion" value="onion" />
+                            <label id="onion1"> Onion </label>
+
+                            <input type="radio" name="green_olive" id="green_olive" value="green_olive" />
+                            <label id="green-olive"> Green Olive </label>
+
+                            <input type="radio" name="black_olive" id="black_olive" value="black_olive" />
+                            <label id="black-olive"> Black Olive </label>
+
+                            <br>
+
+
+                            <input type="radio" name="parmigiano" id="parmigiano" value="parmigiano" />
+                            <label id="parmigiano-cheeze"> Parmigiano </label>
+
+                            <input type="radio" name="goat_cheeze" id="goat_cheeze" value="goat_cheeze" />
+                            <label id="goat-cheeze"> Goat Cheeze </label>
+
+                            <input type="radio" name="assiago" id="assiago" value="assiago" />
+                            <label id="assiago1"> Assiago </label>
+
+                            <input type="radio" name="feta" id="feta" value="feta" />
+                            <label id="cheeze-feta"> Feta </label>
+
+                            <input type="radio" name="cheddar" id="cheddar" value="cheddar" />
+                            <label id="cheeze-cheddar"> Assiago </label>
+
+                            <input type="radio" name="extra_mozzarella" id="extra_mozzarella" value="extra_mozzarella" />
+                            <label id="extra-mozzarella"> Extra_Mozzarella </label>
+
+                            <br>
+                            <div>
+                                <label id="cusstom_pizza_qty">Cusstom Pizza QTY</label>
+                                <input type="number" id="cusstom-pizza-qty" name="cusstom_pizza_qty" size="2" value="0" />
+                            </div>
+                        </fieldset>
+                        <br>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <br>
+                    <fieldset id="payment">
+                        <legend> Payment </legend>
+                        <br>
+                        <fieldset id="order-by">
+                            <legend> Order By </legend>
+                            <br>
+                            <div>
+                                <label id="firstname">First Name </label>
+                                <input type="text" id="fname" name="firstname" size="43" maxlength="43" required placeholder="First Name" />
+                            </div>
+                            <div>
+                                <label id="lastname">Last Name </label>
+                                <input type="text" id="lname" name="lastname" size="43" maxlength="43" required placeholder="Last Name" />
+                            </div>
+                            <div>
+                                <label id="address-1">Address Line1 </label>
+                                <input type="text" id="address1" name="Addres1" size="40" />
+                            </div>
+                            <div>
+                                <label id="address-2">Address Line2 </label>
+                                <input type="text" id="address2" name="Addres2" size="40" />
+                            </div>
+                            <div>
+                                <label id="cityname">City</label>
+                                <select id="city" name="City">
+                                    <option value="choose">choose…</option>
+                                    <option value="Newmarket">Newmarket</option>
+                                    <option value="OrangeVille">Orangeville</option>
+                                    <option value="Arura">Arura</option>
+                                    <option value="Barrie">Barrie</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label id="phone-number">Phone Number</label>
+                                <input type="tel" id="phone" name="pnone" size="10" maxlength="10" />
+                            </div>
+                            <div>
+                                <label id="delivery_time">Delivery Time</label>
+                                <input type="time" id="deliverytime" name="delivery_time" />
+                                <!-- I know that type="time" is not supported in Safari or Internet Explorer 12 and earlier versions.-->
+                            </div>
+                            <div>
+                                <label id="delivery_comment">Delivery Comment</label>
+                                <textarea name="delivery-comment" rows="3" cols="35" id="delivery-comment"></textarea>
+                            </div>
+                            <div>
+                                <label id="cooking_comment">Cooking Comment</label>
+                                <textarea name="cooking-comment" rows="3" cols="35" id="cooking-comment"></textarea>
+                            </div>
+                        </fieldset>
+                        <br>
+                        <br>
+
+                        <fieldset id="payment-info">
+                            <legend>Payment Info</legend>
+                            <br>
+                            <div>
+                                <input type="radio" name="paymethod" id="on-line" value="online" />
+                                <label id="online"> Pay On-Line</label>
+
+                                <input type="radio" name="paymethod" id="at-door" value="atdoor" />
+                                <label id="atdoor"> Pay at Door</label>
+                            </div>
+                            <div class="line"></div>
+                            <div>
+                                <input type="radio" name="cctype" id="am-ex" value="amex" />
+                                <label id="amex"><img src="../../images/pizza_store_img/amex_logo.gif" alt="American Express" /> American Express</label>
+
+                                <input type="radio" name="cctype" id="m-c" value="mc" />
+                                <label id="mc"><img src="../../images/pizza_store_img/mc_logo.gif" alt="MasterCard" /> MasterCard</label>
+                                <br>
+                                <input type="radio" name="cctype" id="visa-c" value="visa" />
+                                <label id="visa"><img src="../../images/pizza_store_img/visa_logo.gif" alt="VisaCard" /> VisaCard</label>
+
+                                <input type="radio" name="cctype" id="p-p" value="paypal" />
+                                <label id="paypal"><img src="../../images/pizza_store_img/paypal_logo.png" alt="PayPal" /> PayPal</label>
+
+                                <input type="radio" name="cctype" id="cash-pay" value="cash" />
+                                <label id="cash"> Cash</label>
+                            </div>
+                            <br>
+                            <div>
+                                <label id="cc-number">Credit Card Number</label>
+                                <input type="text" id="ccnumber" name="ccnumber" size="16" maxlength="16" />
+                            </div>
+                            <br>
+                            <div>
+                                <label id="cvv-number">Credit Card <ins><dfn title="The security number behind of the credit card"> CVV</dfn></ins> Number </label>
+                                <input type="text" id="cvvnumber" name="cvvnumber" size="4" maxlength="4" />
+                            </div>
+                            <br>
+                            <div>
+                                <label id="cc-expireyear">Expiration Year</label>
+                                <select name="cc-expireyear" id="ccexpireyear">
+                                    <option value="choose">choose…</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div>
+                                <label id="cc-expiremonth">Expiration Month</label>
+                                <select name="cc-expiremonth" id="ccexpiremonth">
+                                    <option value="choose">choose…</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                            <br>
+                        </fieldset>
+
+                        <br>
+                    </fieldset>
+                    <br>
+                    <p id="submit2"><input type="submit" id="main-submit-button" value="Submit" name="main-submit-button"></p>
+                </form>
+            </article>
+        </main>
+    </div><!-- This closes the container div -->
+    <footer id="order-footer">
+        <p>
+            <small><strong>Copyrights &copy; 2018, Meisam Koohaki (200412272)</strong></small>
+            <a href="legal/privacy-policy.html" title="Go to the Privacy Policy page" target="_blanc">Read Our Privacy Policy </a><a href="legal/terms-of-use.html" title="Go to the Terms of Use" target="_blanc">Read our Term Of Use </a>
+        </p>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,86 @@
+/*
+  File name: song_page_style.css
+  Author: Meisam Koohaki
+  web site name: Eagles Band's Songs
+  file description: CSS for the Eagles Band's Songs page which is in the projects_page
+*/
+
+body 
+ 	      {
+		   text-align: center;
+		   font: 125%/1.4 Helvetica, Arial, sans-serif;
+		   color: black;
+		   background-color: #512e42;
+  	      } 
+#main-container, #container 
+	      {
+		   width: 80%;
+		   border-radius: 10px;
+		   margin: 0 auto;
+		   background-color: #eba4cc;
+		   padding: 20px;
+			 height:5200px;
+	      }
+#container {
+ height: 4500px;
+}
+nav a
+          {
+           color: white;
+          }
+nav ul li
+          {
+		    display: inline;
+		  }
+nav ul
+          {
+	       text-align: center;
+	   	   padding-left: 0;
+          }
+
+h1
+          {
+	       font: normal 100px, times, sans-serif, Arial;
+	       color:black;
+          }
+h2
+          {
+       	   font: normal 150px, times, sans-serif, Arial;
+	       color: #512e42;
+          }
+
+a[href="#mainContent"]
+          {
+           position: relative;
+           left: 0;
+           color:white;
+          }
+
+a[href="#mainContent"]:focus 
+          {
+           left: 0;
+           color:white  
+          }
+.link
+          {
+		   list-style-type: none;		   
+		  }
+.link a 
+          {
+		   color: black;
+		   margin: auto;
+	       text-align: center;
+	       list-style-position: inside;
+		  }
+			#photo-page img{
+				width: 400px;
+				height: auto;
+				float: right;
+				padding: 25px;
+			}
+			footer {
+				position: relative;
+				clear: left;
+				top: 100px;
+				color: white;
+			}
